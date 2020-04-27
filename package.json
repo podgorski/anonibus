@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
     "expo": "~37.0.3",
     "firebase": "7.9.0",
     "haversine": "^1.1.1",

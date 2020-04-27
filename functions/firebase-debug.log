@@ -1,0 +1,158 @@
+[debug] [2020-04-13T22:17:05.346Z] ----------------------------------------------------------------------
+[debug] [2020-04-13T22:17:05.351Z] Command:       /Users/antoniopodgorski/.nvm/versions/node/v12.13.1/bin/node /usr/local/bin/firebase emulators:start --only functions
+[debug] [2020-04-13T22:17:05.352Z] CLI Version:   7.9.0
+[debug] [2020-04-13T22:17:05.352Z] Platform:      darwin
+[debug] [2020-04-13T22:17:05.352Z] Node Version:  v12.13.1
+[debug] [2020-04-13T22:17:05.354Z] Time:          Mon Apr 13 2020 19:17:05 GMT-0300 (Brasilia Standard Time)
+[debug] [2020-04-13T22:17:05.354Z] ----------------------------------------------------------------------
+[debug] [2020-04-13T22:17:05.355Z] 
+[info] i  emulators: Starting emulators: functions
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions" for Cloud Functions...
+[debug] [2020-04-13T22:17:05.790Z] [worker-~diagnostic~-4d42a861-c72d-4976-b340-fedb61c2400b]: Assigning socketPath: /var/folders/0t/k1_25xgs4ys5rzj4w2l0q0080000gn/T/fire_emu_11833.sock
+[debug] [2020-04-13T22:17:05.791Z] [worker-~diagnostic~-4d42a861-c72d-4976-b340-fedb61c2400b]: BUSY
+[debug] [2020-04-13T22:17:06.921Z] [runtime-status] [11833] Functions runtime initialized. {"cwd":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions","node_version":"12.13.1"}
+[debug] [2020-04-13T22:17:06.931Z] [runtime-status] [11833] Disabled runtime features: undefined
+[debug] [2020-04-13T22:17:06.937Z] [runtime-status] [11833] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:17:06.940Z] [runtime-status] [11833] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:17:07.726Z] [runtime-status] [11833] Found google-gax at /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/index.js
+[debug] [2020-04-13T22:17:07.726Z] [runtime-status] [11833] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-04-13T22:17:07.832Z] [runtime-status] [11833] Checked functions.config() {"config":{}}
+[debug] [2020-04-13T22:17:07.834Z] [runtime-status] [11833] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:17:07.837Z] [runtime-status] [11833] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:17:07.839Z] [runtime-status] [11833] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:17:07.962Z] [runtime-status] [11833] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2020-04-13T22:17:08.608Z] [runtime-status] [11833] initializeApp(DEFAULT) {"databaseURL":"https://anonibus-23bbf.firebaseio.com","storageBucket":"anonibus-23bbf.appspot.com","projectId":"anonibus-23bbf"}
+[info] ✔  functions[haversine2]: http function initialized (http://localhost:5001/anonibus-23bbf/us-central1/haversine2).
+[info] ✔  functions[haversine]: http function initialized (http://localhost:5001/anonibus-23bbf/us-central1/haversine).
+[info] ✔  functions[descobrirProduto]: http function initialized (http://localhost:5001/anonibus-23bbf/us-central1/descobrirProduto).
+[info] i  functions[lookingEAN2]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[lookingEAN]: function ignored because the firestore emulator does not exist or is not running.
+[info] ✔  All emulators started, it is now safe to connect.
+[debug] [2020-04-13T22:17:08.785Z] [worker-~diagnostic~-4d42a861-c72d-4976-b340-fedb61c2400b]: exited
+[debug] [2020-04-13T22:17:08.785Z] [worker-~diagnostic~-4d42a861-c72d-4976-b340-fedb61c2400b]: FINISHED
+[debug] [2020-04-13T22:17:20.390Z] Accepted request GET /anonibus-23bbf/us-central1/haversine2 --> haversine2
+[debug] [2020-04-13T22:17:20.400Z] [worker-haversine2-f266a7d0-a538-41d4-9a2b-bf2edf1255b0]: Assigning socketPath: /var/folders/0t/k1_25xgs4ys5rzj4w2l0q0080000gn/T/fire_emu_11843.sock
+[debug] [2020-04-13T22:17:20.401Z] [worker-haversine2-f266a7d0-a538-41d4-9a2b-bf2edf1255b0]: BUSY
+[debug] [2020-04-13T22:17:21.323Z] [runtime-status] [11843] Functions runtime initialized. {"cwd":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions","node_version":"12.13.1"}
+[debug] [2020-04-13T22:17:21.329Z] [runtime-status] [11843] Disabled runtime features: undefined
+[debug] [2020-04-13T22:17:21.337Z] [runtime-status] [11843] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:17:21.340Z] [runtime-status] [11843] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:17:22.202Z] [runtime-status] [11843] Found google-gax at /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/index.js
+[debug] [2020-04-13T22:17:22.203Z] [runtime-status] [11843] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-04-13T22:17:22.345Z] [runtime-status] [11843] Checked functions.config() {"config":{}}
+[debug] [2020-04-13T22:17:22.347Z] [runtime-status] [11843] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:17:22.351Z] [runtime-status] [11843] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:17:22.352Z] [runtime-status] [11843] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:17:22.521Z] [runtime-status] [11843] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2020-04-13T22:17:23.411Z] [runtime-status] [11843] initializeApp(DEFAULT) {"databaseURL":"https://anonibus-23bbf.firebaseio.com","storageBucket":"anonibus-23bbf.appspot.com","projectId":"anonibus-23bbf"}
+[debug] [2020-04-13T22:17:23.580Z] [runtime-status] [11843] Trigger "haversine2" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "haversine2"
+[debug] [2020-04-13T22:17:23.581Z] [runtime-status] [11843] triggerDefinition {"httpsTrigger":{},"name":"haversine2","entryPoint":"haversine2"}
+[debug] [2020-04-13T22:17:23.582Z] [runtime-status] [11843] Running haversine2 in mode HTTPS
+[debug] [2020-04-13T22:17:23.597Z] [runtime-status] [11843] Attempting to listen to socketPath: /var/folders/0t/k1_25xgs4ys5rzj4w2l0q0080000gn/T/fire_emu_11843.sock
+[debug] [2020-04-13T22:17:23.608Z] [functions] Runtime ready! Sending request!
+[debug] [2020-04-13T22:17:23.653Z] [runtime-status] [11843] Ephemeral server handling GET request
+[warn] ⚠  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-04-13T22:17:23.720Z] [runtime-status] [11843] Ephemeral server survived.
+[warn] ⚠  External network resource requested!
+   - URL: "http://169.254.169.254/computeMetadata/v1/instance"
+ - Be careful, this may be a production service.
+[warn] ⚠  External network resource requested!
+   - URL: "http://metadata.google.internal./computeMetadata/v1/instance"
+ - Be careful, this may be a production service.
+[info] i  functions: Finished "haversine2" in ~1s
+[debug] [2020-04-13T22:17:24.300Z] [worker-haversine2-f266a7d0-a538-41d4-9a2b-bf2edf1255b0]: IDLE
+[info] >  (node:11843) UnhandledPromiseRejectionWarning: Error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[info] >      at GoogleAuth.getApplicationDefaultAsync (/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-auth-library/build/src/auth/googleauth.js:160:19)
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[info] >      at async GoogleAuth.getClient (/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-auth-library/build/src/auth/googleauth.js:502:17)
+[info] >      at async GrpcClient._getCredentials (/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/grpc.js:92:24)
+[info] >      at async GrpcClient.createStub (/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/grpc.js:213:23)
+[info] >  (node:11843) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+[info] >  (node:11843) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[debug] [2020-04-13T22:22:36.784Z] File /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/index.js changed, reloading triggers
+[debug] [2020-04-13T22:22:36.881Z] File /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/index.js changed, reloading triggers
+[debug] [2020-04-13T22:22:37.887Z] [worker-pool]: Shutting down IDLE worker (haversine2)
+[debug] [2020-04-13T22:22:37.908Z] [worker-~diagnostic~-a9bafb7c-369e-4a60-ac4b-a7615a2a1221]: Assigning socketPath: /var/folders/0t/k1_25xgs4ys5rzj4w2l0q0080000gn/T/fire_emu_11890.sock
+[debug] [2020-04-13T22:22:37.908Z] [worker-~diagnostic~-a9bafb7c-369e-4a60-ac4b-a7615a2a1221]: BUSY
+[debug] [2020-04-13T22:22:37.911Z] [worker-haversine2-f266a7d0-a538-41d4-9a2b-bf2edf1255b0]: exited
+[debug] [2020-04-13T22:22:37.911Z] [worker-haversine2-f266a7d0-a538-41d4-9a2b-bf2edf1255b0]: FINISHED
+[debug] [2020-04-13T22:22:39.665Z] [runtime-status] [11890] Functions runtime initialized. {"cwd":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions","node_version":"12.13.1"}
+[debug] [2020-04-13T22:22:39.674Z] [runtime-status] [11890] Disabled runtime features: undefined
+[debug] [2020-04-13T22:22:39.681Z] [runtime-status] [11890] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:22:39.684Z] [runtime-status] [11890] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:22:40.230Z] [runtime-status] [11890] Found google-gax at /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/index.js
+[debug] [2020-04-13T22:22:40.230Z] [runtime-status] [11890] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-04-13T22:22:40.382Z] [runtime-status] [11890] Checked functions.config() {"config":{}}
+[debug] [2020-04-13T22:22:40.385Z] [runtime-status] [11890] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:22:40.390Z] [runtime-status] [11890] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:22:40.397Z] [runtime-status] [11890] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:22:40.600Z] [runtime-status] [11890] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2020-04-13T22:22:40.671Z] [worker-~diagnostic~-a9bafb7c-369e-4a60-ac4b-a7615a2a1221]: exited
+[debug] [2020-04-13T22:22:40.671Z] [worker-~diagnostic~-a9bafb7c-369e-4a60-ac4b-a7615a2a1221]: FINISHED
+[debug] [2020-04-13T22:23:04.469Z] File /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/base_aula changed, reloading triggers
+[debug] [2020-04-13T22:23:04.587Z] File /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/base_aula changed, reloading triggers
+[debug] [2020-04-13T22:23:05.604Z] [worker-~diagnostic~-dc3486e8-a9d1-4781-bff7-aebe52279cbe]: Assigning socketPath: /var/folders/0t/k1_25xgs4ys5rzj4w2l0q0080000gn/T/fire_emu_11908.sock
+[debug] [2020-04-13T22:23:05.604Z] [worker-~diagnostic~-dc3486e8-a9d1-4781-bff7-aebe52279cbe]: BUSY
+[debug] [2020-04-13T22:23:07.628Z] [runtime-status] [11908] Functions runtime initialized. {"cwd":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions","node_version":"12.13.1"}
+[debug] [2020-04-13T22:23:07.640Z] [runtime-status] [11908] Disabled runtime features: undefined
+[debug] [2020-04-13T22:23:07.657Z] [runtime-status] [11908] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:23:07.665Z] [runtime-status] [11908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:23:08.683Z] [runtime-status] [11908] Found google-gax at /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/index.js
+[debug] [2020-04-13T22:23:08.683Z] [runtime-status] [11908] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-04-13T22:23:08.794Z] [runtime-status] [11908] Checked functions.config() {"config":{}}
+[debug] [2020-04-13T22:23:08.798Z] [runtime-status] [11908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:23:08.802Z] [runtime-status] [11908] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-13T22:23:08.804Z] [runtime-status] [11908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-13T22:23:09.015Z] [runtime-status] [11908] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2020-04-13T22:23:09.104Z] [worker-~diagnostic~-dc3486e8-a9d1-4781-bff7-aebe52279cbe]: exited
+[debug] [2020-04-13T22:23:09.105Z] [worker-~diagnostic~-dc3486e8-a9d1-4781-bff7-aebe52279cbe]: FINISHED
+[debug] [2020-04-14T00:22:27.295Z] Accepted request GET /anonibus-23bbf/us-central1/haversine2 --> haversine2
+[debug] [2020-04-14T00:22:27.311Z] [worker-haversine2-af633290-0d8a-4e53-b8d7-bb63386977e1]: Assigning socketPath: /var/folders/0t/k1_25xgs4ys5rzj4w2l0q0080000gn/T/fire_emu_12966.sock
+[debug] [2020-04-14T00:22:27.311Z] [worker-haversine2-af633290-0d8a-4e53-b8d7-bb63386977e1]: BUSY
+[debug] [2020-04-14T00:22:40.066Z] [runtime-status] [12966] Functions runtime initialized. {"cwd":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions","node_version":"12.13.1"}
+[debug] [2020-04-14T00:22:40.069Z] [runtime-status] [12966] Disabled runtime features: undefined
+[debug] [2020-04-14T00:22:40.501Z] [runtime-status] [12966] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-14T00:22:40.511Z] [runtime-status] [12966] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-14T00:22:51.251Z] [runtime-status] [12966] Found google-gax at /Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/google-gax/build/src/index.js
+[debug] [2020-04-14T00:22:51.251Z] [runtime-status] [12966] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-04-14T00:22:52.095Z] [runtime-status] [12966] Checked functions.config() {"config":{}}
+[debug] [2020-04-14T00:22:52.095Z] [runtime-status] [12966] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-14T00:22:52.096Z] [runtime-status] [12966] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-14T00:22:52.096Z] [runtime-status] [12966] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-04-14T00:22:54.110Z] [runtime-status] [12966] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/antoniopodgorski/Unicarioca/2020.1/DAM/anonibus/functions/node_modules/firebase-admin/lib/index.js"}}
+[warn] ⚠  functions: Could not find trigger "haversine2" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "haversine2"
+[warn] ⚠  functions: TypeError: Cannot read property 'definition' of undefined
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:657:47
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at invokeTrigger (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:649:12)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:767:19
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[debug] [2020-04-14T00:22:54.323Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/usr/local/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/usr/local/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:170:12)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:415:37)
+    at EventEmitter.emit (events.js:215:7)
+    at EventEmitter.emit (domain.js:475:20)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:478:25
+    at Array.forEach (<anonymous>)
+    at FunctionsEmulator.onData (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:476:32)
+    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:355:18)
+    at ChildProcess.emit (events.js:210:5)
+    at ChildProcess.EventEmitter.emit (domain.js:475:20)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-04-14T00:22:54.326Z] [worker-haversine2-af633290-0d8a-4e53-b8d7-bb63386977e1]: exited
+[debug] [2020-04-14T00:22:54.326Z] [worker-haversine2-af633290-0d8a-4e53-b8d7-bb63386977e1]: FINISHED

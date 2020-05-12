@@ -94,7 +94,7 @@ export default function Chat() {
         {
           mensagens.length > 0 && mensagens.map(item => (
 
-            <View style={styles.linha_conversa}>
+            <View key={item.id} style={styles.linha_conversa}>
               <Image style={styles.avatar_conversa} source={{ uri: item.avatar }} />
               <View style={{ flexDirection: 'column', marginTop: 5 }}>
                 <Text style={{ fontSize: 12, color: '#999' }}>{item.usuario}</Text>
